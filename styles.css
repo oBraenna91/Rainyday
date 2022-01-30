@@ -1,0 +1,381 @@
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src: url('https://use.typekit.net/afm0oiy.css') format ("woff2");
+}
+body {
+    font-family: 'bebas-neue-pro',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width:100vw;
+    padding:0px;
+    margin: 0px !important;
+}
+h1 {
+    text-align: left;
+    padding-left: 1%;
+    font-size: 1em;
+}
+p {
+    text-align: left;
+    padding-left: 1%;
+    font-size: .5em;
+}
+h2 {
+    text-align: left;
+    padding-left: 1%;
+    font-size:.7em;
+}
+.logo { 
+    max-width:40%;
+    max-height:90%;
+    padding-left:2%;
+    padding-top: 2%;
+    min-width: 30%;
+
+}
+#top-header {
+    display:flex;
+    align-items: center;
+    gap:30%;
+}
+.icons {
+    display: inline-flex;
+    text-decoration: none;
+    font-size:1.3em;
+    color:#113340;
+    align-content: flex-end;
+    padding-right: .3em;
+}
+.searchbar {
+    margin-right:.3em;
+}
+
+
+#shipping {
+    vertical-align: middle;
+}
+
+#shipping p {
+    color:#FFF;
+    font-size: 2em;
+    background-color:#113340;
+    width:100%;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+
+#slogan {
+    max-height: 50px;
+}
+.main-women, .main-men {
+    text-align: center;
+    font-size: 1em;
+}
+img {
+    width:100%;
+}
+main {
+    font-size:50px;
+    color:#113340;
+    text-align:center;
+}
+main a {
+    text-decoration: none;
+    color:#113340;
+    font-weight: normal;
+}
+ul {
+    padding:0;
+}
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+footer {
+    text-align: center;
+}
+footer li {
+    display: inline-flex;
+    font-size:1.5em;
+    color:#113340;
+    padding:3%;
+}
+footer a {
+    text-decoration:none;
+    color:#113340;
+}
+
+.co-s-shipcar {
+    font-size: 3.5em;
+    height:50%;
+}
+
+.product-grid {
+    display:grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    padding:1%;
+}
+.add-to-cart-button {
+    background:#F2A74B;
+    font-size: .7em;
+    color:#FFF;
+    border-radius: 15px;
+}
+.jacket-1-text, .jacket-2-text {
+    font-size: .9em;
+}
+.jacket-1-text a, .jacket-2-text a {
+    text-decoration: none;
+    color:#FFF;
+}
+.footer-product {
+    font-size: .4em;
+}
+
+.product-img {
+    display:inline-flex;
+    align-items: center;
+}
+
+.product-page-grid {
+    display:grid;
+    grid-gap:.7em;
+    padding:1%;
+    margin-top: 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "img info"
+    "desc desc"
+    "price favorite"
+    "size ATC"
+    ;
+}
+#slogan {
+    margin-top: -5%;
+}
+
+.product-page-img{grid-area:img;}
+.product-page-info{grid-area: info;}
+.product-page-desc{grid-area: desc;}
+.product-page-price{grid-area:price;}
+.favorite-icon{grid-area:favorite;}
+.select-size{grid-area:size;}
+.product-page-add-to-cart{grid-area:ATC;}
+
+.product-page-img {
+    display: inline-flex;
+    align-items: center;
+}
+.product-page-h1 {
+    font-size: .6em;
+}
+.product-page-price {
+    font-size:1.5em;
+    font-variant: bold;
+}
+
+.favorite-icon {
+    display:inline-flex;
+    align-items: center;
+    margin:auto;
+    font-size: 1em;
+}
+
+.select-size p {
+    background:#113340;
+    font-size: .7em;
+    color:#FFF;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+
+.product-page-add-to-cart p {
+    text-align: center;
+    background:#F2A74B;
+    font-size: .7em;
+    color:#FFF;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    margin:0;
+
+}
+
+.italic {
+    font-style: italic;
+}
+.italic a{
+    color:#113340;
+}
+.bold {
+    font-weight: bold;
+    font-size: .7em;
+}
+.bold-small {
+    font-weight: bold;
+}
+
+.gender-h1 {
+    font-weight: lighter;
+}
+
+/*FORM*/
+.form__input {
+    display: block;
+    text-align: center;
+}
+.select-size {
+    vertical-align: middle;
+}
+
+input {
+    margin:auto;
+    height:3em;
+    width:70%;
+}
+.details {
+    text-align: center;
+    font-size: .3em;
+}
+
+.radio {
+    display: block;
+}
+.select-button {
+    font-size: .5em;
+    border-radius: 15px;
+    padding:2%;
+    border-color: #113340;
+    border-width: .2em;
+    vertical-align: middle;
+}
+.buy-now {
+    font-size: .7em;
+    border-radius: 15px;
+    border-width: 0px;
+    height:80%;
+    background-color:#F2A74B;
+    color:#FFF;
+}
+.sub-total {
+    font-size: .7em;
+    font-weight: bold;
+}
+.searchbar {
+    height:1.5em;
+    width:5em;
+    border-radius: 15px;
+    border-width: .3em;
+    border-color: #113340;
+}
+/*FORM DONE*/
+
+/*MEDIA*/
+@media (min-width: 700px) {
+    .logo {
+        width:15%;
+    }
+    #top-header {
+        gap:37%;
+    }
+    .icons {
+        font-size: 1.7em;
+    }
+    .searchbar {
+        font-size: .8em;
+    }
+    header p {
+        font-size: 100%;
+        height:80%;
+        padding:1%;   
+    }
+    #slogan {
+        width:100%;
+        max-width:600px;
+        height:auto;
+        margin:auto;
+    }
+    .row{
+        float:left;
+        width:50%;
+        max-width:600px;
+        height:auto;
+    }
+    footer {
+        text-align: center;
+    }
+    footer li {
+        padding:50px;
+        text-align: center;
+    }
+    .men-top-img, .women-top-img {
+        display:none;
+    }
+    .product-grid {
+        display:grid;
+        font-size: .7em;
+        padding:2%;
+        margin-top: 10%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "jacket-1 text-1 br jacket-2 text-2"
+    }
+    #men-jacket-1, #women-jacket-1{grid-area: jacket-1;}
+    .jacket-1-text{grid-area: text-1;}
+    #men-jacket-2, #women-jacket-2{grid-area:jacket-2;}
+    .jacket-2-text{grid-area:text-2;}
+    }
+    .product-img {
+        min-width: 150px;
+        max-width:600px;
+        width:50%;
+    }
+    .product-page-add-to-cart{
+        max-width:250px;
+    }
+    .select-size {
+        text-align: left;
+    }
+    .product-page-info {
+        position: relative;
+        top:15%;
+    }
+    .checkout-img {
+        max-width:50%;
+    }
+
+@media (min-width: 1000px) {
+    .row{
+        max-width:800px;
+    }
+    .about-img, .contact-img {
+        max-width:40%;
+        float:right;
+        margin-right:2%;
+    }
+    .logo img{
+        max-width:40%;
+    }
+    #shipping p{
+        padding:1%;
+    }
+    #top-header {
+        gap:55%;
+    }
+    .icons{
+        font-size: 1.4em;
+    }
+    .searchbar{
+        font-size: .7em;
+    }
+    
+}
