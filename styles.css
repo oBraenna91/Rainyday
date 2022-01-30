@@ -26,25 +26,26 @@ h2 {
     font-size:.7em;
 }
 .logo { 
+    float:left;
     max-width:40%;
     max-height:90%;
     padding-left:2%;
     padding-top: 2%;
     min-width: 30%;
-
 }
 #top-header {
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap:30%;
 }
 .icons {
     display: inline-flex;
+    float:right;
     text-decoration: none;
     font-size:1.3em;
     color:#113340;
-    align-content: flex-end;
     padding-right: .3em;
+    padding-top:2%;
 }
 .searchbar {
     margin-right:.3em;
@@ -281,8 +282,9 @@ input {
 
 /*MEDIA*/
 @media (min-width: 700px) {
-    .logo {
-        width:15%;
+    .logo img {
+        min-width:180%;
+        min-height:180%;
     }
     #top-header {
         gap:37%;
@@ -362,14 +364,12 @@ input {
         float:right;
         margin-right:2%;
     }
-    .logo img{
-        max-width:40%;
-    }
+
     #shipping p{
         padding:1%;
     }
     #top-header {
-        gap:55%;
+        gap:45%;
     }
     .icons{
         font-size: 1.4em;
