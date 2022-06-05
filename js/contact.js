@@ -2,8 +2,6 @@ const form = document.querySelector("#contact-form");
 
  form.onsubmit = function () {
     event.preventDefault();   
-    
-    console.log(event);
 
     const contactName = document.querySelector("#contact-name");
 
