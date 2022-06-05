@@ -5,7 +5,7 @@
     <meta name="description" content="Contact Us">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.typekit.net/afm0oiy.css">
-    <link href="/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3238efe19a.js" crossorigin="anonymous"></script>
   </head>
 <body>
@@ -43,6 +43,24 @@
                 <p>Email:Customerservice@rainydays.com
                     </p>
                 <p>Telephone:+47 1234 5678</p>
+                <p>Or you can fill out the form below and we'll get back to you asap!</p>
+                <div class="contact-container">
+                    <form id="contact-form">
+                        <div>
+                            <input name="name" class="input" id="contact-name" placeholder="Name (Required)"/>
+                            <div class="form-error" id="name-error">Please enter your name</div>
+                        </div>
+                        <div>
+                            <input name="email" class="input" id="contact-email" placeholder="E-mail (Required)"/>
+                            <div class="form-error" id="email-error">Please enter a valid e-mail address</div>
+                        </div>
+                        <div>
+                            <input name="subject" class="input" id="contact-subject" placeholder="Subject (Required)"/>
+                            <div class="form-error" id="subject-error">Please enter subject (min 10 characters)</div>
+                        </div>
+                        <button class="submitbutton">Submit</button>
+                    </form>
+                </div>
             </main>
         </div>
         <div class="footer-container">
@@ -56,4 +74,6 @@
             </footer>
         </div>
     </div>
+    <script src="js/contact.js"></script>
 </body>
+</html>
